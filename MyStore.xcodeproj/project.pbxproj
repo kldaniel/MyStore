@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A612312E2132DB0600A8D81C /* PromiseKit.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B082132D7B900CDB898 /* PromiseKit.framework.dSYM */; };
+		A612312F2132DB0600A8D81C /* Realm.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B092132D7B900CDB898 /* Realm.framework.dSYM */; };
+		A61231302132DB0600A8D81C /* RealmSwift.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0E2132D7BA00CDB898 /* RealmSwift.framework.dSYM */; };
+		A61231312132DB0600A8D81C /* ReSwift.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0A2132D7B900CDB898 /* ReSwift.framework.dSYM */; };
+		A61231322132DB0600A8D81C /* RxBlocking.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0B2132D7B900CDB898 /* RxBlocking.framework.dSYM */; };
+		A61231332132DB0600A8D81C /* RxCocoa.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0F2132D7BA00CDB898 /* RxCocoa.framework.dSYM */; };
+		A61231342132DB0600A8D81C /* RxSwift.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0C2132D7B900CDB898 /* RxSwift.framework.dSYM */; };
+		A61231352132DB0600A8D81C /* RxTest.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0D2132D7BA00CDB898 /* RxTest.framework.dSYM */; };
+		A61231362132DB0600A8D81C /* SwifterSwift.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */; };
+		A61231372132DB0600A8D81C /* Swinject.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B102132D7BA00CDB898 /* Swinject.framework.dSYM */; };
+		A6303B122132D7BA00CDB898 /* PromiseKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B082132D7B900CDB898 /* PromiseKit.framework.dSYM */; };
+		A6303B132132D7BA00CDB898 /* Realm.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B092132D7B900CDB898 /* Realm.framework.dSYM */; };
+		A6303B142132D7BA00CDB898 /* ReSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0A2132D7B900CDB898 /* ReSwift.framework.dSYM */; };
+		A6303B152132D7BA00CDB898 /* RxBlocking.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0B2132D7B900CDB898 /* RxBlocking.framework.dSYM */; };
+		A6303B162132D7BA00CDB898 /* RxSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0C2132D7B900CDB898 /* RxSwift.framework.dSYM */; };
+		A6303B172132D7BA00CDB898 /* RxTest.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0D2132D7BA00CDB898 /* RxTest.framework.dSYM */; };
+		A6303B182132D7BA00CDB898 /* RealmSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0E2132D7BA00CDB898 /* RealmSwift.framework.dSYM */; };
+		A6303B192132D7BA00CDB898 /* RxCocoa.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0F2132D7BA00CDB898 /* RxCocoa.framework.dSYM */; };
+		A6303B1A2132D7BA00CDB898 /* Swinject.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B102132D7BA00CDB898 /* Swinject.framework.dSYM */; };
+		A6303B1B2132D7BA00CDB898 /* SwifterSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */; };
+		A6303B1C2132D7D100CDB898 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF42132D7A100CDB898 /* PromiseKit.framework */; };
+		A6303B1D2132D7D100CDB898 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF42132D7A100CDB898 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B1E2132D7D100CDB898 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFA2132D7A100CDB898 /* Realm.framework */; };
+		A6303B1F2132D7D100CDB898 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFA2132D7A100CDB898 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B202132D7D100CDB898 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFD2132D7A200CDB898 /* RealmSwift.framework */; };
+		A6303B212132D7D100CDB898 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFD2132D7A200CDB898 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B222132D7D100CDB898 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF52132D7A100CDB898 /* ReSwift.framework */; };
+		A6303B232132D7D100CDB898 /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF52132D7A100CDB898 /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B242132D7D100CDB898 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF72132D7A100CDB898 /* RxBlocking.framework */; };
+		A6303B252132D7D100CDB898 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF72132D7A100CDB898 /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B262132D7D100CDB898 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFB2132D7A200CDB898 /* RxCocoa.framework */; };
+		A6303B272132D7D100CDB898 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFB2132D7A200CDB898 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B282132D7D100CDB898 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFC2132D7A200CDB898 /* RxSwift.framework */; };
+		A6303B292132D7D100CDB898 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AFC2132D7A200CDB898 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B2A2132D7D100CDB898 /* SwifterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF82132D7A100CDB898 /* SwifterSwift.framework */; };
+		A6303B2B2132D7D100CDB898 /* SwifterSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF82132D7A100CDB898 /* SwifterSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6303B2C2132D7D100CDB898 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF92132D7A100CDB898 /* Swinject.framework */; };
+		A6303B2D2132D7D100CDB898 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF92132D7A100CDB898 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6A063192137404700075FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A063182137404700075FFD /* AppDelegate.swift */; };
 		A6A0631B2137404700075FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A0631A2137404700075FFD /* ViewController.swift */; };
 		A6A0631E2137404700075FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A0631C2137404700075FFD /* Main.storyboard */; };
@@ -31,7 +69,69 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A612312D2132DAF900A8D81C /* Copy Carthage dSYMs */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				A612312E2132DB0600A8D81C /* PromiseKit.framework.dSYM in Copy Carthage dSYMs */,
+				A612312F2132DB0600A8D81C /* Realm.framework.dSYM in Copy Carthage dSYMs */,
+				A61231302132DB0600A8D81C /* RealmSwift.framework.dSYM in Copy Carthage dSYMs */,
+				A61231312132DB0600A8D81C /* ReSwift.framework.dSYM in Copy Carthage dSYMs */,
+				A61231322132DB0600A8D81C /* RxBlocking.framework.dSYM in Copy Carthage dSYMs */,
+				A61231332132DB0600A8D81C /* RxCocoa.framework.dSYM in Copy Carthage dSYMs */,
+				A61231342132DB0600A8D81C /* RxSwift.framework.dSYM in Copy Carthage dSYMs */,
+				A61231352132DB0600A8D81C /* RxTest.framework.dSYM in Copy Carthage dSYMs */,
+				A61231362132DB0600A8D81C /* SwifterSwift.framework.dSYM in Copy Carthage dSYMs */,
+				A61231372132DB0600A8D81C /* Swinject.framework.dSYM in Copy Carthage dSYMs */,
+			);
+			name = "Copy Carthage dSYMs";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A6303B2E2132D7D100CDB898 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A6303B272132D7D100CDB898 /* RxCocoa.framework in Embed Frameworks */,
+				A6303B1F2132D7D100CDB898 /* Realm.framework in Embed Frameworks */,
+				A6303B292132D7D100CDB898 /* RxSwift.framework in Embed Frameworks */,
+				A6303B2B2132D7D100CDB898 /* SwifterSwift.framework in Embed Frameworks */,
+				A6303B252132D7D100CDB898 /* RxBlocking.framework in Embed Frameworks */,
+				A6303B232132D7D100CDB898 /* ReSwift.framework in Embed Frameworks */,
+				A6303B2D2132D7D100CDB898 /* Swinject.framework in Embed Frameworks */,
+				A6303B1D2132D7D100CDB898 /* PromiseKit.framework in Embed Frameworks */,
+				A6303B212132D7D100CDB898 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A6303AF42132D7A100CDB898 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		A6303AF52132D7A100CDB898 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		A6303AF62132D7A100CDB898 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		A6303AF72132D7A100CDB898 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		A6303AF82132D7A100CDB898 /* SwifterSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwifterSwift.framework; path = Carthage/Build/iOS/SwifterSwift.framework; sourceTree = "<group>"; };
+		A6303AF92132D7A100CDB898 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		A6303AFA2132D7A100CDB898 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		A6303AFB2132D7A200CDB898 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		A6303AFC2132D7A200CDB898 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		A6303AFD2132D7A200CDB898 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A6303B082132D7B900CDB898 /* PromiseKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = PromiseKit.framework.dSYM; path = Carthage/Build/iOS/PromiseKit.framework.dSYM; sourceTree = "<group>"; };
+		A6303B092132D7B900CDB898 /* Realm.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Realm.framework.dSYM; path = Carthage/Build/iOS/Realm.framework.dSYM; sourceTree = "<group>"; };
+		A6303B0A2132D7B900CDB898 /* ReSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ReSwift.framework.dSYM; path = Carthage/Build/iOS/ReSwift.framework.dSYM; sourceTree = "<group>"; };
+		A6303B0B2132D7B900CDB898 /* RxBlocking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxBlocking.framework.dSYM; path = Carthage/Build/iOS/RxBlocking.framework.dSYM; sourceTree = "<group>"; };
+		A6303B0C2132D7B900CDB898 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
+		A6303B0D2132D7BA00CDB898 /* RxTest.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxTest.framework.dSYM; path = Carthage/Build/iOS/RxTest.framework.dSYM; sourceTree = "<group>"; };
+		A6303B0E2132D7BA00CDB898 /* RealmSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RealmSwift.framework.dSYM; path = Carthage/Build/iOS/RealmSwift.framework.dSYM; sourceTree = "<group>"; };
+		A6303B0F2132D7BA00CDB898 /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxCocoa.framework.dSYM; path = Carthage/Build/iOS/RxCocoa.framework.dSYM; sourceTree = "<group>"; };
+		A6303B102132D7BA00CDB898 /* Swinject.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Swinject.framework.dSYM; path = Carthage/Build/iOS/Swinject.framework.dSYM; sourceTree = "<group>"; };
+		A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwifterSwift.framework.dSYM; path = Carthage/Build/iOS/SwifterSwift.framework.dSYM; sourceTree = "<group>"; };
 		A6A063152137404700075FFD /* MyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A063182137404700075FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6A0631A2137404700075FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +150,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6303B262132D7D100CDB898 /* RxCocoa.framework in Frameworks */,
+				A6303B1E2132D7D100CDB898 /* Realm.framework in Frameworks */,
+				A6303B282132D7D100CDB898 /* RxSwift.framework in Frameworks */,
+				A6303B2A2132D7D100CDB898 /* SwifterSwift.framework in Frameworks */,
+				A6303B242132D7D100CDB898 /* RxBlocking.framework in Frameworks */,
+				A6303B222132D7D100CDB898 /* ReSwift.framework in Frameworks */,
+				A6303B2C2132D7D100CDB898 /* Swinject.framework in Frameworks */,
+				A6303B1C2132D7D100CDB898 /* PromiseKit.framework in Frameworks */,
+				A6303B202132D7D100CDB898 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +179,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A612312B2132D8E200A8D81C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6303AF42132D7A100CDB898 /* PromiseKit.framework */,
+				A6303AFA2132D7A100CDB898 /* Realm.framework */,
+				A6303AFD2132D7A200CDB898 /* RealmSwift.framework */,
+				A6303AF52132D7A100CDB898 /* ReSwift.framework */,
+				A6303AF72132D7A100CDB898 /* RxBlocking.framework */,
+				A6303AFB2132D7A200CDB898 /* RxCocoa.framework */,
+				A6303AFC2132D7A200CDB898 /* RxSwift.framework */,
+				A6303AF62132D7A100CDB898 /* RxTest.framework */,
+				A6303AF82132D7A100CDB898 /* SwifterSwift.framework */,
+				A6303AF92132D7A100CDB898 /* Swinject.framework */,
+				A6303B082132D7B900CDB898 /* PromiseKit.framework.dSYM */,
+				A6303B092132D7B900CDB898 /* Realm.framework.dSYM */,
+				A6303B0E2132D7BA00CDB898 /* RealmSwift.framework.dSYM */,
+				A6303B0A2132D7B900CDB898 /* ReSwift.framework.dSYM */,
+				A6303B0B2132D7B900CDB898 /* RxBlocking.framework.dSYM */,
+				A6303B0F2132D7BA00CDB898 /* RxCocoa.framework.dSYM */,
+				A6303B0C2132D7B900CDB898 /* RxSwift.framework.dSYM */,
+				A6303B0D2132D7BA00CDB898 /* RxTest.framework.dSYM */,
+				A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */,
+				A6303B102132D7BA00CDB898 /* Swinject.framework.dSYM */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		A6A0630C2137404700075FFD = {
 			isa = PBXGroup;
 			children = (
 				A6A063172137404700075FFD /* MyStore */,
 				A6A0632C2137404700075FFD /* MyStoreTests */,
 				A6A063372137404700075FFD /* MyStoreUITests */,
+				A6A063462137404700075FFD /* Carthage Builds */,
 				A6A063162137404700075FFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +256,14 @@
 			path = MyStoreUITests;
 			sourceTree = "<group>";
 		};
+		A6A063462137404700075FFD /* Carthage Builds */ = {
+			isa = PBXGroup;
+			children = (
+				A612312B2132D8E200A8D81C /* iOS */,
+			);
+			name = "Carthage Builds";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +274,10 @@
 				A6A063112137404700075FFD /* Sources */,
 				A6A063122137404700075FFD /* Frameworks */,
 				A6A063132137404700075FFD /* Resources */,
+				A6303B2E2132D7D100CDB898 /* Embed Frameworks */,
+				A612312C2132D92A00A8D81C /* Run Script - Carthage AppStore workaround */,
+				A612312D2132DAF900A8D81C /* Copy Carthage dSYMs */,
+				A61231382132DB6200A8D81C /* Run Script - Warning for outdated Carthage dependencies */,
 			);
 			buildRules = (
 			);
@@ -223,9 +372,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6303B192132D7BA00CDB898 /* RxCocoa.framework.dSYM in Resources */,
 				A6A063232137404700075FFD /* LaunchScreen.storyboard in Resources */,
 				A6A063202137404700075FFD /* Assets.xcassets in Resources */,
+				A6303B132132D7BA00CDB898 /* Realm.framework.dSYM in Resources */,
 				A6A0631E2137404700075FFD /* Main.storyboard in Resources */,
+				A6303B162132D7BA00CDB898 /* RxSwift.framework.dSYM in Resources */,
+				A6303B122132D7BA00CDB898 /* PromiseKit.framework.dSYM in Resources */,
+				A6303B1B2132D7BA00CDB898 /* SwifterSwift.framework.dSYM in Resources */,
+				A6303B182132D7BA00CDB898 /* RealmSwift.framework.dSYM in Resources */,
+				A6303B172132D7BA00CDB898 /* RxTest.framework.dSYM in Resources */,
+				A6303B1A2132D7BA00CDB898 /* Swinject.framework.dSYM in Resources */,
+				A6303B152132D7BA00CDB898 /* RxBlocking.framework.dSYM in Resources */,
+				A6303B142132D7BA00CDB898 /* ReSwift.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +403,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A612312C2132D92A00A8D81C /* Run Script - Carthage AppStore workaround */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwifterSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+			);
+			name = "Run Script - Carthage AppStore workaround";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PromiseKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwifterSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		A61231382132DB6200A8D81C /* Run Script - Warning for outdated Carthage dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Warning for outdated Carthage dependencies";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6A063112137404700075FFD /* Sources */ = {
@@ -423,6 +631,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyStore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,6 +653,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyStore/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
