@@ -17,6 +17,7 @@
 		A61231352132DB0600A8D81C /* RxTest.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B0D2132D7BA00CDB898 /* RxTest.framework.dSYM */; };
 		A61231362132DB0600A8D81C /* SwifterSwift.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */; };
 		A61231372132DB0600A8D81C /* Swinject.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B102132D7BA00CDB898 /* Swinject.framework.dSYM */; };
+		A61231452132DF7A00A8D81C /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61231442132DF7A00A8D81C /* StartController.swift */; };
 		A6303B122132D7BA00CDB898 /* PromiseKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B082132D7B900CDB898 /* PromiseKit.framework.dSYM */; };
 		A6303B132132D7BA00CDB898 /* Realm.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B092132D7B900CDB898 /* Realm.framework.dSYM */; };
 		A6303B142132D7BA00CDB898 /* ReSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0A2132D7B900CDB898 /* ReSwift.framework.dSYM */; };
@@ -46,7 +47,6 @@
 		A6303B2C2132D7D100CDB898 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF92132D7A100CDB898 /* Swinject.framework */; };
 		A6303B2D2132D7D100CDB898 /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF92132D7A100CDB898 /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A6A063192137404700075FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A063182137404700075FFD /* AppDelegate.swift */; };
-		A6A0631B2137404700075FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A0631A2137404700075FFD /* ViewController.swift */; };
 		A6A0631E2137404700075FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A0631C2137404700075FFD /* Main.storyboard */; };
 		A6A063202137404700075FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A0631F2137404700075FFD /* Assets.xcassets */; };
 		A6A063232137404700075FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A063212137404700075FFD /* LaunchScreen.storyboard */; };
@@ -112,6 +112,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A61231442132DF7A00A8D81C /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
 		A6303AF42132D7A100CDB898 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 		A6303AF52132D7A100CDB898 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		A6303AF62132D7A100CDB898 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
@@ -134,7 +135,6 @@
 		A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwifterSwift.framework.dSYM; path = Carthage/Build/iOS/SwifterSwift.framework.dSYM; sourceTree = "<group>"; };
 		A6A063152137404700075FFD /* MyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A063182137404700075FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6A0631A2137404700075FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A6A0631D2137404700075FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6A0631F2137404700075FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6A063222137404700075FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -206,6 +206,85 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		A61231392132DE7100A8D81C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A612313A2132DE7900A8D81C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A61231442132DF7A00A8D81C /* StartController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A612313B2132DE8900A8D81C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A612313C2132DE8F00A8D81C /* ReSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReSwift;
+			sourceTree = "<group>";
+		};
+		A612313D2132DE9D00A8D81C /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		A612313E2132DEAB00A8D81C /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		A612313F2132DEB300A8D81C /* Action */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		A61231402132DEC000A8D81C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A6A0631C2137404700075FFD /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A61231412132DEF000A8D81C /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
+		A61231422132DEFB00A8D81C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A61231432132DF0500A8D81C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		A6A0630C2137404700075FFD = {
 			isa = PBXGroup;
 			children = (
@@ -230,9 +309,18 @@
 		A6A063172137404700075FFD /* MyStore */ = {
 			isa = PBXGroup;
 			children = (
+				A612313C2132DE8F00A8D81C /* ReSwift */,
+				A61231392132DE7100A8D81C /* Core */,
+				A612313B2132DE8900A8D81C /* Model */,
+				A612313D2132DE9D00A8D81C /* State */,
+				A612313E2132DEAB00A8D81C /* Reducer */,
+				A612313F2132DEB300A8D81C /* Action */,
+				A612313A2132DE7900A8D81C /* ViewController */,
+				A61231402132DEC000A8D81C /* Storyboard */,
+				A61231412132DEF000A8D81C /* Nib */,
+				A61231432132DF0500A8D81C /* Util */,
+				A61231422132DEFB00A8D81C /* Other */,
 				A6A063182137404700075FFD /* AppDelegate.swift */,
-				A6A0631A2137404700075FFD /* ViewController.swift */,
-				A6A0631C2137404700075FFD /* Main.storyboard */,
 				A6A0631F2137404700075FFD /* Assets.xcassets */,
 				A6A063212137404700075FFD /* LaunchScreen.storyboard */,
 				A6A063242137404700075FFD /* Info.plist */,
@@ -458,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6A0631B2137404700075FFD /* ViewController.swift in Sources */,
+				A61231452132DF7A00A8D81C /* StartController.swift in Sources */,
 				A6A063192137404700075FFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
