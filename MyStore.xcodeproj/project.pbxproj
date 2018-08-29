@@ -18,6 +18,12 @@
 		A61231362132DB0600A8D81C /* SwifterSwift.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B112132D7BA00CDB898 /* SwifterSwift.framework.dSYM */; };
 		A61231372132DB0600A8D81C /* Swinject.framework.dSYM in Copy Carthage dSYMs */ = {isa = PBXBuildFile; fileRef = A6303B102132D7BA00CDB898 /* Swinject.framework.dSYM */; };
 		A61231452132DF7A00A8D81C /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61231442132DF7A00A8D81C /* StartController.swift */; };
+		A6123148213718E500A8D81C /* DIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6123147213718E500A8D81C /* DIManager.swift */; };
+		A612314E21371A4A00A8D81C /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612314D21371A4A00A8D81C /* CoreTests.swift */; };
+		A612315221371BB700A8D81C /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612315121371BB700A8D81C /* ApplicationAssembly.swift */; };
+		A612315421371E7E00A8D81C /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6303AF92132D7A100CDB898 /* Swinject.framework */; };
+		A612315621371EF400A8D81C /* DITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612315521371EF400A8D81C /* DITests.swift */; };
+		A612315821371F4C00A8D81C /* ControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612315721371F4C00A8D81C /* ControllerAssembly.swift */; };
 		A6303B122132D7BA00CDB898 /* PromiseKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B082132D7B900CDB898 /* PromiseKit.framework.dSYM */; };
 		A6303B132132D7BA00CDB898 /* Realm.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B092132D7B900CDB898 /* Realm.framework.dSYM */; };
 		A6303B142132D7BA00CDB898 /* ReSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A6303B0A2132D7B900CDB898 /* ReSwift.framework.dSYM */; };
@@ -113,6 +119,12 @@
 
 /* Begin PBXFileReference section */
 		A61231442132DF7A00A8D81C /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		A6123147213718E500A8D81C /* DIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIManager.swift; sourceTree = "<group>"; };
+		A612314A213719EB00A8D81C /* MyStoreTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStoreTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A612314D21371A4A00A8D81C /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		A612315121371BB700A8D81C /* ApplicationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		A612315521371EF400A8D81C /* DITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DITests.swift; sourceTree = "<group>"; };
+		A612315721371F4C00A8D81C /* ControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAssembly.swift; sourceTree = "<group>"; };
 		A6303AF42132D7A100CDB898 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 		A6303AF52132D7A100CDB898 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
 		A6303AF62132D7A100CDB898 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
@@ -166,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A612315421371E7E00A8D81C /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +298,31 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		A6123146213718D400A8D81C /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A61231492137198600A8D81C /* Assembly */,
+				A6123147213718E500A8D81C /* DIManager.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A61231492137198600A8D81C /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A612315121371BB700A8D81C /* ApplicationAssembly.swift */,
+				A612315721371F4C00A8D81C /* ControllerAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		A612315321371E7E00A8D81C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6A0630C2137404700075FFD = {
 			isa = PBXGroup;
 			children = (
@@ -293,6 +331,8 @@
 				A6A063372137404700075FFD /* MyStoreUITests */,
 				A6A063462137404700075FFD /* Carthage Builds */,
 				A6A063162137404700075FFD /* Products */,
+				A612314A213719EB00A8D81C /* MyStoreTests-Bridging-Header.h */,
+				A612315321371E7E00A8D81C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,6 +351,7 @@
 			children = (
 				A612313C2132DE8F00A8D81C /* ReSwift */,
 				A61231392132DE7100A8D81C /* Core */,
+				A6123146213718D400A8D81C /* DI */,
 				A612313B2132DE8900A8D81C /* Model */,
 				A612313D2132DE9D00A8D81C /* State */,
 				A612313E2132DEAB00A8D81C /* Reducer */,
@@ -332,6 +373,8 @@
 			isa = PBXGroup;
 			children = (
 				A6A0632F2137404700075FFD /* Info.plist */,
+				A612314D21371A4A00A8D81C /* CoreTests.swift */,
+				A612315521371EF400A8D81C /* DITests.swift */,
 			);
 			path = MyStoreTests;
 			sourceTree = "<group>";
@@ -427,6 +470,7 @@
 					};
 					A6A063282137404700075FFD = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 						TestTargetID = A6A063142137404700075FFD;
 					};
 					A6A063332137404700075FFD = {
@@ -546,7 +590,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A612315221371BB700A8D81C /* ApplicationAssembly.swift in Sources */,
 				A61231452132DF7A00A8D81C /* StartController.swift in Sources */,
+				A6123148213718E500A8D81C /* DIManager.swift in Sources */,
+				A612315821371F4C00A8D81C /* ControllerAssembly.swift in Sources */,
 				A6A063192137404700075FFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +602,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A612315621371EF400A8D81C /* DITests.swift in Sources */,
+				A612314E21371A4A00A8D81C /* CoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,7 +812,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -772,6 +826,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.kdaniel.01.MyStoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyStoreTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStore.app/MyStore";
@@ -783,7 +839,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyStoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -792,6 +853,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.kdaniel.01.MyStoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyStoreTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStore.app/MyStore";

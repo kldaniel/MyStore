@@ -17,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
     ) -> Bool {
+
+        let window: UIWindow = DIManager.shared.container.resolve(UIWindow.self)!
+        let rootController: StartController = DIManager.shared.container.resolve(StartController.self)!
+        window.rootViewController = rootController
+        window.makeKeyAndVisible()
+        self.window = window
+
         return true
     }
 
